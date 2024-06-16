@@ -1,0 +1,24 @@
+* {
+    font-family: sans-serif;
+}
+/* canvas{
+ position:fixed;
+top:0;
+left:0;
+} */
+canvas#canvas.border.canvasbox{
+    z-index:10;
+  position:fixed;
+  top:0;
+  left:0;
+  opacity:42%;
+/*   mix-blend-mode:exclusion; */
+}
+canvas#defaultCanvas0.p5Canvas{
+  z-index:0;
+  position:fixed;
+  top:0;
+  left:0;
+/*   opacity:42%; */
+  
+}
